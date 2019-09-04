@@ -30,14 +30,14 @@ const Config = {
     walletSaveFrequency: 60 * 1000,
 
     /**
-     * The amount of decimal places your coin has, e.g. TurtleCoin has two
+     * The amount of decimal places your coin has, e.g. WATT has two
      * decimals
      */
     decimalPlaces: 2,
 
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In TurtleCoin, this converts to WATT
+     * In WATT, this converts to WATT
      */
     addressPrefix: 10158,
 
