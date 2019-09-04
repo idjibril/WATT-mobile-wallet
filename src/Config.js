@@ -39,7 +39,7 @@ const Config = {
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
      * In TurtleCoin, this converts to TRTL
      */
-    addressPrefix: 3914525,
+    addressPrefix: 10158,
 
     /**
      * Request timeout for daemon operations in milliseconds
@@ -76,7 +76,7 @@ const Config = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: 'TRTL',
+    ticker: 'WATT',
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
@@ -106,7 +106,7 @@ const Config = {
     /**
      * The length of a standard address for your coin
      */
-    standardAddressLength: 99,
+    standardAddressLength: 97,
 
     /**
      * The length of an integrated address for your coin - It's the same as
@@ -201,12 +201,12 @@ const Config = {
      * this if you are forking, so we don't get reported bugs for your wallet...
      *
      */
-    repoLink: 'https://github.com/turtlecoin/turtlecoin-mobile-wallet/issues',
+    repoLink: 'https://github.com/idjibril/WATT-mobile-wallet/issues',
 
     /**
      * This only controls the name in the settings screen.
      */
-    appName: 'TonChan',
+    appName: 'WATTlet',
 
     /**
      * Slogan phrase during wallet CreateScreen
@@ -221,7 +221,7 @@ const Config = {
     /**
      * Base URL for us to chuck a hash on the end, and find a transaction
      */
-    explorerBaseURL: 'https://explorer.turtlecoin.lol/?search=',
+    explorerBaseURL: 'https://explorer.watt.cash/?search=',
 
     /**
      * A link to your app on the Apple app store. Currently blank because we
@@ -232,7 +232,7 @@ const Config = {
     /**
      * A link to your app on the google play store
      */
-    googlePlayLink: 'https://play.google.com/store/apps/details?id=com.tonchan',
+    googlePlayLink: 'https://play.google.com/store/apps/details?id=com.WATTlet',
 };
 
 module.exports = Config;
