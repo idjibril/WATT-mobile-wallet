@@ -37,7 +37,7 @@ const Config = {
 
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In TurtleCoin, this converts to TRTL
+     * In TurtleCoin, this converts to WATT
      */
     addressPrefix: 10158,
 
@@ -74,7 +74,7 @@ const Config = {
     blocksPerTick: 1,
 
     /**
-     * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
+     * Your coins 'ticker', generally used to refer to the coin, i.e. 123 WATT
      */
     ticker: 'WATT',
 
@@ -179,7 +179,7 @@ const Config = {
     /**
      * Address to send dev fee to
      */
-    devFeeAddress: 'TRTLv1E3ThL66fHthRHyzPSDqeUazPA9eBQYkuRnp8svKgvdoecQtqhSRaD59CEuH8XnYsw3YGtw1RWsQSqtHLqUXu4tvk9LryR',
+    devFeeAddress: 'WA3URoGxSeXa91qrCqtugRjWhz3xdAgWCKHdqG1niMbRKsA5WRcRMJPNSPQKP2g1zz5EHf8dfpmMJVC56exMYSnV2Y9YhRXZH',
 
     /**
      * Base url for price API
