@@ -17,12 +17,12 @@ const Config = {
     /**
      * If you can't figure this one out, I don't have high hopes
      */
-    coinName: 'TurtleCoin',
+    coinName: 'WATT',
 
     /**
      * Prefix for URI encoded addresses
      */
-    uriPrefix: 'turtlecoin://',
+    uriPrefix: 'WATT://',
 
     /**
      * How often to save the wallet, in milliseconds
