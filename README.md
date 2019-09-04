@@ -123,7 +123,7 @@ An example of a URI containing all of the above parameters:
 WATT://WA3URoGxSeXa91qrCqtugRjWhz3xdAgWCKHdqG1niMbRKsA5WRcRMJPNSPQKP2g1zz5EHf8dfpmMJVC56exMYSnV2Y9YhRXZH?amount=10000&name=Starbucks%20Coffee&paymentid=f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402
 ```
 
-This would send `100 TRTL` (10000 in atomic units) to the address `WA3URoGxSeXa91qrCqtugRjWhz3xdAgWCKHdqG1niMbRKsA5WRcRMJPNSPQKP2g1zz5EHf8dfpmMJVC56exMYSnV2Y9YhRXZH`, using the name `Starbucks Coffee` (Note the URI encoding), and using a payment ID of `f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402`
+This would send `100 WATT` (10000 in atomic units) to the address `WA3URoGxSeXa91qrCqtugRjWhz3xdAgWCKHdqG1niMbRKsA5WRcRMJPNSPQKP2g1zz5EHf8dfpmMJVC56exMYSnV2Y9YhRXZH`, using the name `Starbucks Coffee` (Note the URI encoding), and using a payment ID of `f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402`
 
 You can also just display the URI as a hyperlink. If a user clicks the link, it will open the app, and jump to the confirm screen, just as a QR code would function. (Provided all the fields are given)
 
@@ -193,6 +193,6 @@ Then, copy the line of code `Sentry.config('https://8ecf138e1d1e4d558178be3f2b5e
 
 Your API key will be different, don't just copy the one here.
 
-Finally, replace `Config.coinName === 'TurtleCoin'` in `src/Sentry.js` with the coin name defined in the config.
+Finally, replace `Config.coinName === 'WATT'` in `src/Sentry.js` with the coin name defined in the config.
 
 Once you've done that, you can test sentry is working by adding something like `throw new Error('Hello, sentry');` in the mainscreen constructor.
